@@ -5,7 +5,7 @@ const User = require("../models/User");
 const ZarinpalCheckout = require("zarinpal-checkout");
 const authenticate = require("../middleware/authenticate");
 const zarinpal = ZarinpalCheckout.create(
-  "0e6a5ae7-897a-47f1-8bdc-f35405bdfb7f",
+  "YOUR_ID",
   true
 );
 // Deposit endpoint

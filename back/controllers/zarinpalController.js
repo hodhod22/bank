@@ -1,7 +1,7 @@
 const { responseReturn } = require("../utiles/response");
 const User = require("../models/User");
 const zarinpal = require("zarinpal-checkout").create(
-  "0e6a5ae7-897a-47f1-8bdc-f35405bdfb7f",
+  "YOUR_ID",
   true
 ); // false for sandbox
 class zarinpalController {
